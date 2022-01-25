@@ -1,0 +1,89 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.frsarker.weatherapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->D:\AllFolders\Projects\Weather-App-using-Java-in-Android-master\Weather-App-using-Java-in-Android-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\AllFolders\Projects\Weather-App-using-Java-in-Android-master\Weather-App-using-Java-in-Android-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\AllFolders\Projects\Weather-App-using-Java-in-Android-master\Weather-App-using-Java-in-Android-master\app\src\main\AndroidManifest.xml:5:5-67
+11-->D:\AllFolders\Projects\Weather-App-using-Java-in-Android-master\Weather-App-using-Java-in-Android-master\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->D:\AllFolders\Projects\Weather-App-using-Java-in-Android-master\Weather-App-using-Java-in-Android-master\app\src\main\AndroidManifest.xml:7:5-28:19
+14        android:allowBackup="true"
+14-->D:\AllFolders\Projects\Weather-App-using-Java-in-Android-master\Weather-App-using-Java-in-Android-master\app\src\main\AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.1.0] C:\Users\kathi\.gradle\caches\transforms-2\files-2.1\395dcef454f25521e51182a527203fae\core-1.1.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->D:\AllFolders\Projects\Weather-App-using-Java-in-Android-master\Weather-App-using-Java-in-Android-master\app\src\main\AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->D:\AllFolders\Projects\Weather-App-using-Java-in-Android-master\Weather-App-using-Java-in-Android-master\app\src\main\AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->D:\AllFolders\Projects\Weather-App-using-Java-in-Android-master\Weather-App-using-Java-in-Android-master\app\src\main\AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->D:\AllFolders\Projects\Weather-App-using-Java-in-Android-master\Weather-App-using-Java-in-Android-master\app\src\main\AndroidManifest.xml:12:9-35
+21        android:theme="@style/AppTheme" >
+21-->D:\AllFolders\Projects\Weather-App-using-Java-in-Android-master\Weather-App-using-Java-in-Android-master\app\src\main\AndroidManifest.xml:13:9-40
+22        <meta-data
+22-->D:\AllFolders\Projects\Weather-App-using-Java-in-Android-master\Weather-App-using-Java-in-Android-master\app\src\main\AndroidManifest.xml:14:9-17:15
+23            android:name="com.snapchat.kit.sdk.clientId"
+23-->D:\AllFolders\Projects\Weather-App-using-Java-in-Android-master\Weather-App-using-Java-in-Android-master\app\src\main\AndroidManifest.xml:15:13-57
+24            android:value="a8b7b9dc-da24-4cf5-80a2-4f7b77c31903" />
+24-->D:\AllFolders\Projects\Weather-App-using-Java-in-Android-master\Weather-App-using-Java-in-Android-master\app\src\main\AndroidManifest.xml:16:13-65
+25        <!-- "eb4eb35b-bff2-4372-8198-f54a61349185"   "a8b7b9dc-da24-4cf5-80a2-4f7b77c31903" -->
+26
+27        <activity android:name="com.frsarker.weatherapp.MainActivity" >
+27-->D:\AllFolders\Projects\Weather-App-using-Java-in-Android-master\Weather-App-using-Java-in-Android-master\app\src\main\AndroidManifest.xml:20:9-27:20
+27-->D:\AllFolders\Projects\Weather-App-using-Java-in-Android-master\Weather-App-using-Java-in-Android-master\app\src\main\AndroidManifest.xml:20:19-47
+28            <intent-filter>
+28-->D:\AllFolders\Projects\Weather-App-using-Java-in-Android-master\Weather-App-using-Java-in-Android-master\app\src\main\AndroidManifest.xml:22:13-26:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->D:\AllFolders\Projects\Weather-App-using-Java-in-Android-master\Weather-App-using-Java-in-Android-master\app\src\main\AndroidManifest.xml:23:17-69
+29-->D:\AllFolders\Projects\Weather-App-using-Java-in-Android-master\Weather-App-using-Java-in-Android-master\app\src\main\AndroidManifest.xml:23:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->D:\AllFolders\Projects\Weather-App-using-Java-in-Android-master\Weather-App-using-Java-in-Android-master\app\src\main\AndroidManifest.xml:25:17-77
+31-->D:\AllFolders\Projects\Weather-App-using-Java-in-Android-master\Weather-App-using-Java-in-Android-master\app\src\main\AndroidManifest.xml:25:27-74
+32            </intent-filter>
+33        </activity>
+34        <!-- Receiver to listen for Snapchat response for CK Share Success/Failure -->
+35        <receiver
+35-->[com.snapchat.kit.sdk:creative:1.13.0] C:\Users\kathi\.gradle\caches\transforms-2\files-2.1\563a990764a4649374f10265bfa2f37f\jetified-creative-1.13.0\AndroidManifest.xml:14:9-17:40
+36            android:name="com.snapchat.kit.sdk.creative.internal.SnapCreativeShareResultHandler"
+36-->[com.snapchat.kit.sdk:creative:1.13.0] C:\Users\kathi\.gradle\caches\transforms-2\files-2.1\563a990764a4649374f10265bfa2f37f\jetified-creative-1.13.0\AndroidManifest.xml:15:13-97
+37            android:enabled="true"
+37-->[com.snapchat.kit.sdk:creative:1.13.0] C:\Users\kathi\.gradle\caches\transforms-2\files-2.1\563a990764a4649374f10265bfa2f37f\jetified-creative-1.13.0\AndroidManifest.xml:16:13-35
+38            android:exported="false" />
+38-->[com.snapchat.kit.sdk:creative:1.13.0] C:\Users\kathi\.gradle\caches\transforms-2\files-2.1\563a990764a4649374f10265bfa2f37f\jetified-creative-1.13.0\AndroidManifest.xml:17:13-37
+39        <!--
+40         Each android device will only initialize one ContentProvider with a given authority
+41         string, so we use the app's applicationId to make this string unique per app.
+42        -->
+43        <provider
+43-->[com.snapchat.kit.sdk:core:1.13.0] C:\Users\kathi\.gradle\caches\transforms-2\files-2.1\fb1a1e8e41d5b35c6617930ba0289319\jetified-core-1.13.0\AndroidManifest.xml:17:9-20:40
+44            android:name="com.snapchat.kit.sdk.SnapKitInitProvider"
+44-->[com.snapchat.kit.sdk:core:1.13.0] C:\Users\kathi\.gradle\caches\transforms-2\files-2.1\fb1a1e8e41d5b35c6617930ba0289319\jetified-core-1.13.0\AndroidManifest.xml:18:13-68
+45            android:authorities="com.frsarker.weatherapp.SnapKitInitProvider"
+45-->[com.snapchat.kit.sdk:core:1.13.0] C:\Users\kathi\.gradle\caches\transforms-2\files-2.1\fb1a1e8e41d5b35c6617930ba0289319\jetified-core-1.13.0\AndroidManifest.xml:19:13-71
+46            android:exported="false" />
+46-->[com.snapchat.kit.sdk:core:1.13.0] C:\Users\kathi\.gradle\caches\transforms-2\files-2.1\fb1a1e8e41d5b35c6617930ba0289319\jetified-core-1.13.0\AndroidManifest.xml:20:13-37
+47        <provider
+47-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\kathi\.gradle\caches\transforms-2\files-2.1\98b66204d969739e10f15d0fc94a0bff\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+48            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+48-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\kathi\.gradle\caches\transforms-2\files-2.1\98b66204d969739e10f15d0fc94a0bff\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+49            android:authorities="com.frsarker.weatherapp.lifecycle-process"
+49-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\kathi\.gradle\caches\transforms-2\files-2.1\98b66204d969739e10f15d0fc94a0bff\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+50            android:exported="false"
+50-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\kathi\.gradle\caches\transforms-2\files-2.1\98b66204d969739e10f15d0fc94a0bff\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+51            android:multiprocess="true" />
+51-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\kathi\.gradle\caches\transforms-2\files-2.1\98b66204d969739e10f15d0fc94a0bff\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+52    </application>
+53
+54</manifest>
